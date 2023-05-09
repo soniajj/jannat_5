@@ -5,12 +5,12 @@ import org.openqa.selenium.By;
 public class Locators {
 
 	
-	public final By login_Button = By.xpath("/html/body/nav/div/div/ul/li[1]/button");
 	
-	public final By login_Email_EditBox = By.id("email");
-	public final By login_pass_EditBox = By.id("password");
 	
-	//public final By Login_Box =(By.xpath("/html/body/div[3]/div/div/div[2]/section/form[1]/div[3]/button"));
+	public final By login_UserName_EditBox = By.name("username");
+	public final By login_pass_EditBox = By.name("password");
+	
+	public final By Login_Button =(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button"));
 	
 	
 }

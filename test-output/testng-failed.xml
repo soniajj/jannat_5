@@ -6,7 +6,6 @@
       <class name="com.testscenarios.Login_page">
         <methods>
           <include name="f"/>
-          <include name="Mango"/>
         </methods>
       </class> <!-- com.testscenarios.Login_page -->
     </classes>
